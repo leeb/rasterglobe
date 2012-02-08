@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-us">
+<head
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1"> 
+	<title>Rasterized Globe Demos</title>
+	<link rel="stylesheet" media="screen" href="style.css" >
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="globe-data.js"></script>
+	<script src="raster-globe.js"></script>
+</head>
+<body>
+	<div id="globe-container"></div>
+	<script>
+	$(function () {
+		var globe = new RasterGlobe($('#globe-container'), { data: globeData });
+	});
+
+	</script>
+</body>

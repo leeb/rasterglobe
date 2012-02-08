@@ -1,0 +1,13 @@
+#globe-container {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	background: #000;
+}
+
+#globe-container div.line {
+	position: absolute;
+	background: #ff0;
+	width: 0px;
+	height: 1px;
+}
