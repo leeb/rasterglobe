@@ -5,6 +5,7 @@
  */
 
 var RasterGlobe = function (container, options) {
+	var globe = this;
 	options = options || {};
 
 	this.height = options.height || 400;
@@ -28,9 +29,11 @@ var RasterGlobe = function (container, options) {
 		});
 		this.elements.push(elements);
 	}
-	setInterval(this.update.bind(this), 60);
-};
 
+	setInterval(function () {
+		globe.update();
+	}, 60);
+};
 
 RasterGlobe.prototype.update = function () {
 
@@ -76,6 +79,7 @@ RasterGlobe.prototype.update = function () {
 
 	this.frame++;
 };
+
 
 
 
