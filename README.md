@@ -4,7 +4,7 @@ A simple JS implementation of a globe, rendered by horizontal rasterization. Rat
 
 This was an idea that came from a conversation with a client about how to implement some form of 3D globe with wide browser support.  This was the most straightforward option, and simple enough that it was inevitable I'd build a prototype at some point.
 
-Demo - http://github.com/leeb/rasterglobe/src/index.html
+Demo - http://leeb.github.com/rasterglobe/src/index.html
 
 
 ## License 
